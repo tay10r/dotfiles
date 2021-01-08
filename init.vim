@@ -13,9 +13,10 @@ Plug 'tomasr/molokai'
 Plug 'fmoralesc/molokayo'
 Plug 'rhysd/vim-clang-format'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
-colorscheme molokayo
+colorscheme OceanicNext
 
 autocmd FileType c,cpp ClangFormatAutoEnable
