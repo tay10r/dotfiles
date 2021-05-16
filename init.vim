@@ -6,6 +6,7 @@ set tabstop=2
 set foldmethod=syntax
 set nowrap
 set termguicolors
+set colorcolumn=80
 
 call plug#begin('~/.vim/plugged')
 
