@@ -6,7 +6,7 @@ set tabstop=2
 set foldmethod=syntax
 set nowrap
 set termguicolors
-set colorcolumn=80
+set colorcolumn=120
 
 call plug#begin('~/.vim/plugged')
 
@@ -19,6 +19,6 @@ Plug 'tikhomirov/vim-glsl'
 
 call plug#end()
 
-colorscheme default
+colorscheme molokayo
 
 autocmd FileType c,cpp ClangFormatAutoEnable
