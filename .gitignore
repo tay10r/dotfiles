@@ -1,0 +1,4 @@
+config/coc
+config/nvim/lazy
+config/nvim/lazy-lock.json
+nvim-*

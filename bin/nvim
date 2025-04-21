@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+export XDG_CONFIG_HOME="${DOTFILES_DIR}/config"
+echo $@
+exec "${DOTFILES_DIR}/nvim-linux-$(uname -i)/bin/nvim" "$@"
